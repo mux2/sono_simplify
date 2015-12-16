@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    style="@style/title_bar_style"
+ 
+    tools:context="com.lashou.www.fragment.Fragment3" >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+    
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="@string/my_la_shou"
+        android:textSize="22sp" />
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_hv2_bot1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/divider_horizontal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+           android:gravity="center"  >
+
+        <TextView
+            android:id="@+id/imageViewB1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginLeft="10.0dip"
+            android:layout_weight="1.0"
+            android:paddingBottom="10.0dip"
+            android:paddingTop="10.0dip"
+            android:text="热映影片"
+            android:textColor="@color/textColor_16"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/imageViewB2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_marginRight="10.0dip"
+            android:background="@drawable/list_view_item_bg_selector"
+            android:drawablePadding="4.0dip"
+            android:drawableRight="@drawable/arrow_right_my_gray"
+            android:text="全部影片"
+               android:gravity="center"
+             android:paddingLeft="4.0dip"
+           android:textColor="@color/textColor_65"
+            android:textSize="@dimen/item_large_size" />
+    </LinearLayout>
+  <include layout="@layout/divider_horizontal" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/imageViewB1" >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+
+</LinearLayout>

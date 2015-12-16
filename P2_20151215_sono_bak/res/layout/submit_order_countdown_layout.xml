@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="#fffff4f0" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/pay_label_text_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_surplus_time" />
+    <TextView android:textSize="@dimen/pay_label_text_size" android:textColor="@color/app_yellow" android:id="@id/seckill_countdown" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00" />
+</LinearLayout>

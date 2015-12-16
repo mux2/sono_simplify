@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/shop_map"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="15.0dip"
+        android:background="@color/bg_common_gray" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@id/ll_shop_detail"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:background="@drawable/list_view_item_bg_selector"
+            android:orientation="vertical"
+            android:paddingBottom="10.0dip"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5.0dip"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.0dip"
+                            android:layout_weight="1.0" >
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5.0dip"
+                                android:layout_marginTop="3.0dip"
+                                android:background="@drawable/icon_distance"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false" />
+
+                            <TextView
+                                android:id="@id/tv_shop_address"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="福建厦门思明区厦禾路925号"
+                                android:textColor="@color/color_ac"
+                                android:textSize="15.0sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.0dip"
+                            android:layout_weight="1.0" >
+
+                            <ImageView
+                                android:layout_width="15.0dip"
+                                android:layout_height="15.0dip"
+                                android:layout_marginRight="5.0dip"
+                                android:layout_marginTop="3.0dip"
+                                android:background="@drawable/ic_deadline_info"
+                                android:focusable="false"
+                                android:focusableInTouchMode="false" />
+
+                            <TextView
+                                android:id="@id/tv_shop_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="营业时间: 10:00-22:00"
+                                android:textColor="@color/color_ac"
+                                android:textSize="15.0sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="1.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/divider_vertical" />
+
+        <LinearLayout
+            android:id="@id/ll_call_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@drawable/list_view_item_bg_selector"
+            android:gravity="center"
+            android:paddingLeft="20.0dip"
+            android:paddingRight="20.0dip" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_phone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="15.0dip"
+        android:background="@color/bg_common_gray" />
+
+</LinearLayout>

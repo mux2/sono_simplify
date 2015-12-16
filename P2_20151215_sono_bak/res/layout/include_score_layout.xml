@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="@color/white" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_score1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+            <TextView android:textSize="@dimen/size_20" android:textColor="@color/shop_service_label_color" android:gravity="center_vertical" android:id="@id/tv_score_name1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="视觉效果:" />
+            <TextView android:textSize="@dimen/size_20" android:textColor="@color/orange" android:gravity="center_vertical" android:id="@id/tv_score_lable1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_score2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:textSize="@dimen/size_20" android:textColor="@color/shop_service_label_color" android:gravity="center_vertical" android:id="@id/tv_score_name2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="环境:" />
+            <TextView android:textSize="@dimen/size_20" android:textColor="@color/orange" android:gravity="center_vertical" android:id="@id/tv_score_lable2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/layout_score3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignParentRight="true">
+            <TextView android:textSize="@dimen/size_20" android:textColor="@color/shop_service_label_color" android:gravity="center_vertical" android:id="@id/tv_score_name3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="服务：" />
+            <TextView android:textSize="@dimen/size_20" android:textColor="@color/orange" android:gravity="center_vertical" android:id="@id/tv_score_lable3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+    <include layout="@layout/layout_common_item_divider_line" />
+</LinearLayout>

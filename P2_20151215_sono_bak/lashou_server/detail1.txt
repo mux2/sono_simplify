@@ -1,0 +1,63 @@
+{
+    "lashou_price": {},
+    "left_time": 2696792,
+    "type": "1",
+    "is_new": 0,
+    "title": "阳光场欢唱套系，交通便利",
+    "details": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\"><html><head><meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"></head><body><style type=\"text/css\">/*CSS_V9*/\r\nh3{font-weight:bold;font-size:16px;color:#666;line-height:180%;margin-bottom:10px;}\r\np strong{font-weight: normal;}\r\n\r\nh3 span{color:#f30;font-family:Arial;}\r\nh4{font-weight:bold;font-size:14px;color:#1f1f1f;background:#ffffff;position:relative;margin:10px 0;}\r\nh4 span, h4 div{display:block;height:35px;padding-left:10px;line-height:28px;color:#1f1f1f;background-color:white;}\r\nul{ margin:0 10px;padding:0;color:#666;font-size:14px;position:relative;}\r\nul.list-paddingleft-2 li p {margin:0;}\r\nul li{position:relative; padding-left:10px; list-style:none; background:url(http://s1.lashouimg.com/wirelessimg/icon_point.png) no-repeat; background-size:4px auto; background-position:0 8px;}\r\nul li strong,ul li b{ font-weight:normal;}\r\n\r\ntable{width:100%;border-collapse:collapse;border-spacing:0;color:#666;font-size:14px;}\r\ntable{line-height:150%;}\r\ntable{text-align:center;width:100%;border-collapse:collapse;border-spacing:0;color:#666;font-size:14px;border:1px solid #999;}\r\ntable.line td,table.line th,#tc_line_s td,#tc_line_s th{border:1px solid #cfcfcf;height:30px;}\r\ntable th{font-weight: bold;width:auto;border-collapse:collapse;border-spacing:0;}\r\ntable td{width:auto;padding:0;margin:0;}\r\ntable td p{margin:0;text-align:center;}\r\ntable .et3,table .et4,table .et5{border:1px solid #999;}\r\n\r\n/*\r\ntr:first-child{display: none;}\r\ntd:first-child,td:first-child div,td:first-child p,td:first-child span{text-align:left !important;}\r\ntable td:last-child span{text-align:right;display:block;}\r\ntd:last-child,th:last-child,tr td:last-child div,tr td:last-child p{text-align:right;}\r\nth:first-child,td:first-child,tr td:first-child div,tr td:first-child p{text-align:left;}\r\ntd:nth-child(2){text-align:left;}\r\ntr td:nth-child(2) p{text-align:left;}\r\n*/\r\n\r\np{font-size:14px;color:#666;text-align:left;}\r\n.tl{text-align:left;}\r\n.tr{text-align:right;}\r\n.f12{font-size:12px;}\r\n.f18{font-size:18px;}\r\n.f22{font-size:22px;}\r\n.f26{font-size:26px;}\r\na{color:#666;}\r\n.cf60{color:#f60;}\r\ndiv{text-align:left;}\r\n\r\nspan{white-space: normal !important;word-wrap: break-word; word-break: normal; }\r\np{white-space: normal !important;word-wrap: break-word; word-break: normal; }</style><table border=\"1\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" ><tbody><tr class=\"firstRow\"><th width=\"33%\" valign=\"middle\" align=\"center\">内容</th><th width=\"33%\" valign=\"middle\" align=\"center\">数量</th><th width=\"33%\" valign=\"middle\" align=\"center\">价格</th></tr><tr><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"left\" >周一至周五12:00-18:00　</td><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"center\" >1次，欢唱6小时</td><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"right\" >228元</td></tr><tr><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"left\" >爱酷啤酒</td><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"center\" >8罐</td><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"right\" >96元</td></tr><tr><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"left\" >葵花籽</td><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"center\" >1份</td><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"right\" >10元</td></tr><tr><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"left\">花生</td><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"center\"><span >1份</span></td><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"right\">10元</td></tr><tr><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"left\">话梅</td><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"center\"><span >1份</span></td><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"right\">20元</td></tr><tr><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"left\">蚕豆</td><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"center\"><span >1份</span></td><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"right\">10元</td></tr><tr><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"left\" >纸巾</td><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"center\" >1盒</td><td valign=\"middle\" colspan=\"1\" rowspan=\"1\" align=\"right\" >5元</td></tr><tr><td valign=\"middle\" colspan=\"3\" rowspan=\"1\" align=\"right\">市场价379元，拉手团购仅需<strong><em >99</em></strong>元</td></tr></tbody></table><p><span >注（以下详情请咨询商家）：</span></p><p><span >两份叠加可周末使用，套餐内容只送1份</span></p><p ><span >工作人员跟据人数安排包厢，享有解释权</span></p><div > </body></html>",
+    "address_id": 0,
+    "group_recommend": [],
+    "is_collected": 0,
+    "value": "379",
+    "goods_type": "1",
+    "notice": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01//EN\" \"http://www.w3.org/TR/html4/strict.dtd\"><html><head><meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\"></head><body><style type=\"text/css\">/*CSS_V9*/\r\nh3{font-weight:bold;font-size:16px;color:#666;line-height:180%;margin-bottom:10px;}\r\np strong{font-weight: normal;}\r\n\r\nh3 span{color:#f30;font-family:Arial;}\r\nh4{font-weight:bold;font-size:14px;color:#1f1f1f;background:#ffffff;position:relative;margin:10px 0;}\r\nh4 span, h4 div{display:block;height:35px;padding-left:10px;line-height:28px;color:#1f1f1f;background-color:white;}\r\nul{ margin:0 10px;padding:0;color:#666;font-size:14px;position:relative;}\r\nul.list-paddingleft-2 li p {margin:0;}\r\nul li{position:relative; padding-left:10px; list-style:none; background:url(http://s1.lashouimg.com/wirelessimg/icon_point.png) no-repeat; background-size:4px auto; background-position:0 8px;}\r\nul li strong,ul li b{ font-weight:normal;}\r\n\r\ntable{width:100%;border-collapse:collapse;border-spacing:0;color:#666;font-size:14px;}\r\ntable{line-height:150%;}\r\ntable{text-align:center;width:100%;border-collapse:collapse;border-spacing:0;color:#666;font-size:14px;border:1px solid #999;}\r\ntable.line td,table.line th,#tc_line_s td,#tc_line_s th{border:1px solid #cfcfcf;height:30px;}\r\ntable th{font-weight: bold;width:auto;border-collapse:collapse;border-spacing:0;}\r\ntable td{width:auto;padding:0;margin:0;}\r\ntable td p{margin:0;text-align:center;}\r\ntable .et3,table .et4,table .et5{border:1px solid #999;}\r\n\r\n/*\r\ntr:first-child{display: none;}\r\ntd:first-child,td:first-child div,td:first-child p,td:first-child span{text-align:left !important;}\r\ntable td:last-child span{text-align:right;display:block;}\r\ntd:last-child,th:last-child,tr td:last-child div,tr td:last-child p{text-align:right;}\r\nth:first-child,td:first-child,tr td:first-child div,tr td:first-child p{text-align:left;}\r\ntd:nth-child(2){text-align:left;}\r\ntr td:nth-child(2) p{text-align:left;}\r\n*/\r\n\r\np{font-size:14px;color:#666;text-align:left;}\r\n.tl{text-align:left;}\r\n.tr{text-align:right;}\r\n.f12{font-size:12px;}\r\n.f18{font-size:18px;}\r\n.f22{font-size:22px;}\r\n.f26{font-size:26px;}\r\na{color:#666;}\r\n.cf60{color:#f60;}\r\ndiv{text-align:left;}\r\n\r\nspan{white-space: normal !important;word-wrap: break-word; word-break: normal; }\r\np{white-space: normal !important;word-wrap: break-word; word-break: normal; }</style> <ul id=\"tips_generated_by_system\"> <li><strong>有效期：</strong>2015-10-13至2015-12-31 </li><li><strong>特殊日期使用规则：</strong>法定节假日不可使用</li> <li><strong>预约提醒：</strong>请提前1天预约，预约无需出示拉手券密码</li><li><strong>特别提示：</strong></li> <li>拉手券不与店内其他优惠同享</li></ul> <ul id=\"tips_editor\" class=\" list-paddingleft-2\"> <li><p>商家根据实际到店人数安排包房，<span >小包（建议1-7人），</span><span >中包（建议8-12人），</span>中途不可更换包房</p></li> <li><p>本次团购需一次性消费完成，超时欢唱需按店内标准收费，详情请咨询商家<br /></p></li> </ul></div> <p><span ></span></p><div id=\"kfzs\" class=\"new_h2_1\"></body></html>",
+    "btn_disabled": 0,
+    "pay_mobile": 1,
+    "if_join": 0,
+    "signiture": {},
+    "is_self": "0",
+    "product": "小样娱乐",
+    "short_title": "阳光场欢唱套系，交通便利",
+    "price": "99",
+    "detail_imags": [
+        "http://s2.lashouimg.com/cms/M00/A6/01/CqgBJlSiPUGAaYgXAAFy0xgCor8021-440x280.jpg",
+        "http://f3.lashouimg.com/cms/M00/A6/09/CqgBHlSiPUuACOAwAAEVh4xsvZA789.jpg",
+        "http://f3.lashouimg.com/cms/M00/A6/09/CqgBHlSiPU2AZXtaAAE8U7XKv1Y756.jpg",
+        "http://f3.lashouimg.com/cms/M00/A6/01/CqgBJlSiPU2ANtJ2AAE3eE0Zo_M723.jpg",
+        "http://f3.lashouimg.com/cms/M00/A6/01/CqgBJlSiPUuAPg5zAAEiyLD7Epc458.jpg",
+        "http://f3.lashouimg.com/cms/M00/A6/01/CqgBJlSiPUuAbL9nAAEaxeyMVmg747.jpg",
+        "http://f3.lashouimg.com/cms/M00/A2/EB/CqgBVFSiPUuAF157AAD0lNaTKjc487.jpg",
+        "http://f3.lashouimg.com/cms/M00/A6/01/CqgBJlSiPUyANeS1AAEN9xfOHFQ908.jpg",
+        "http://f3.lashouimg.com/cms/M00/A6/01/CqgBJlSiPUyAQe4YAAEvdKs99qE716.jpg",
+        "http://f3.lashouimg.com/cms/M00/A2/EB/CqgBVFSiPUyAX2QNAAECU0dK_dU309.jpg",
+        "http://f3.lashouimg.com/cms/M00/A2/EB/CqgBVFSiPU2AQVn4AAFAoMbwTic295.jpg",
+        "http://f3.lashouimg.com/cms/M00/A6/01/CqgBJlSiPU2ABkC-AAFRcIaf_cs934.jpg",
+        "http://f3.lashouimg.com/cms/M00/A2/EB/CqgBVFSiPU2ACXrKAAETxJGTydY515.jpg",
+        "http://f3.lashouimg.com/cms/M00/A6/09/CqgBHlSiPU6AdzmDAADdHUp8FUI659.jpg",
+        "http://f3.lashouimg.com/cms/M00/A6/09/CqgBHlSiPU6AFikvAADoExl6i_g101.jpg",
+        "http://f3.lashouimg.com/cms/M00/A6/01/CqgBJlSiPU6AEGofAAEDx4p6rMI498.jpg"
+    ],
+    "goods_id": "11806364",
+    "images": [
+        {
+            "image": "http://d1.lashouimg.com/cms/M00/A6/01/CqgBJlSiPUGAaYgXAAFy0xgCor8021-440x280.jpg",
+            "width": 440
+        },
+        {
+            "image": "http://d1.lashouimg.com/cms/M00/A6/01/CqgBJlSiPUGAaYgXAAFy0xgCor8021-220x140.jpg",
+            "width": 220
+        },
+        {
+            "image": "http://d1.lashouimg.com/cms/M00/A6/01/CqgBJlSiPUGAaYgXAAFy0xgCor8021-110x70.jpg",
+            "width": 100
+        }
+    ],
+    "comment": {
+        "tags": {},
+        "count": 0,
+        "items": [],
+        "total_score": 0
+    },
+    "goods_show_type": 5,
+    "is_appointment": 0
+}

@@ -1,0 +1,241 @@
+[
+    {
+        "img_url": "http://d2.lashouimg.com/wirelessimg/cate_img/android/99.png",
+        "cate_id": 99,
+        "cate_type": 1,
+        "re_name": "美食",
+        "cate_name": "美食"
+    },
+    {
+        "img_url": "http://d2.lashouimg.com/wirelessimg/cate_img/android/29.png",
+        "cate_id": 29,
+        "cate_type": 1,
+        "re_name": "电影",
+        "cate_name": "电影"
+    },
+    {
+        "img_url": "http://d2.lashouimg.com/wirelessimg/cate_img/android/300.png",
+        "cate_id": 300,
+        "cate_type": 1,
+        "re_name": "酒店",
+        "cate_name": "酒店"
+    },
+    {
+        "img_url": "http://d2.lashouimg.com/wirelessimg/cate_img/android/31.png",
+        "cate_id": 31,
+        "cate_type": 1,
+        "re_name": "KTV",
+        "cate_name": "KTV"
+    },
+    {
+        "img_url": "http://d2.lashouimg.com/wirelessimg/cate_img/android/189.png",
+        "cate_id": 189,
+        "cate_type": 1,
+        "re_name": "自助餐",
+        "cate_name": "自助餐"
+    },
+    {
+        "img_url": "http://d2.lashouimg.com/wirelessimg/cate_img/android/2.png",
+        "cate_id": 2,
+        "cate_type": 1,
+        "re_name": "休闲娱乐",
+        "cate_name": "休闲娱乐"
+    },
+    {
+        "img_url": "http://d2.lashouimg.com/wirelessimg/cate_img/android/400.png",
+        "cate_id": 400,
+        "cate_type": 1,
+        "re_name": "旅行",
+        "cate_name": "旅游"
+    },
+    {
+        "img_url": "http://d2.lashouimg.com/wirelessimg/cate_img/android/0.png",
+        "cate_id": 0,
+        "cate_type": 1,
+        "re_name": "全部分类",
+        "cate_name": "全部分类"
+    },
+    {
+        "img_url": "",
+        "cate_id": 3,
+        "cate_type": 1,
+        "re_name": "购物",
+        "cate_name": "购物"
+    },
+    {
+        "img_url": "http://d2.lashouimg.com/wirelessimg/custom_img/android/1000.png",
+        "cate_id": "1000",
+        "sub_cate": [
+            {
+                "id": 0,
+                "name": "全部"
+            },
+            {
+                "id": "99",
+                "name": "美食"
+            },
+            {
+                "id": "29",
+                "name": "电影"
+            },
+            {
+                "id": "300",
+                "name": "酒店"
+            }
+        ],
+        "cate_type": 2,
+        "cate_name": "约会"
+    },
+    {
+        "img_url": "http://d2.lashouimg.com/wirelessimg/custom_img/android/1010.png",
+        "cate_id": "1010",
+        "sub_cate": [
+            {
+                "id": 0,
+                "name": "全部"
+            },
+            {
+                "id": "99",
+                "name": "美食"
+            },
+            {
+                "id": "31",
+                "name": "KTV"
+            }
+        ],
+        "cate_type": 2,
+        "cate_name": "聚会"
+    },
+    {
+        "img_url": "http://d2.lashouimg.com/wirelessimg/custom_img/android/1050.png",
+        "cate_id": "1050",
+        "sub_cate": [
+            {
+                "id": 0,
+                "name": "全部"
+            },
+            {
+                "id": "401",
+                "name": "周边游"
+            },
+            {
+                "id": "549",
+                "name": "农家乐"
+            },
+            {
+                "id": "30",
+                "name": "演出赛事"
+            },
+            {
+                "id": "404",
+                "name": "门票"
+            },
+            {
+                "id": "547",
+                "name": "漂流"
+            }
+        ],
+        "cate_type": 2,
+        "cate_name": "周末去哪"
+    },
+    {
+        "img_url": "http://d2.lashouimg.com/wirelessimg/custom_img/android/1040.png",
+        "cate_id": "1040",
+        "sub_cate": [
+            {
+                "id": 0,
+                "name": "全部"
+            },
+            {
+                "id": "509",
+                "name": "运动健身"
+            },
+            {
+                "id": "548",
+                "name": "戏水"
+            },
+            {
+                "id": "547",
+                "name": "漂流"
+            }
+        ],
+        "cate_type": 2,
+        "cate_name": "户外运动"
+    },
+    {
+        "img_url": "http://d2.lashouimg.com/wirelessimg/custom_img/android/1030.png",
+        "cate_id": "1030",
+        "sub_cate": [
+            {
+                "id": 0,
+                "name": "全部"
+            },
+            {
+                "id": "1031",
+                "name": "婚纱摄影"
+            },
+            {
+                "id": "531",
+                "name": "儿童写真"
+            },
+            {
+                "id": "530",
+                "name": "成人写真"
+            }
+        ],
+        "cate_type": 2,
+        "cate_name": "摄影"
+    },
+    {
+        "img_url": "http://d2.lashouimg.com/wirelessimg/custom_img/android/1020.png",
+        "cate_id": "1020",
+        "sub_cate": [
+            {
+                "id": 0,
+                "name": "全部"
+            },
+            {
+                "id": "531",
+                "name": "儿童写真"
+            },
+            {
+                "id": "39",
+                "name": "母婴亲子"
+            },
+            {
+                "id": "554",
+                "name": "孕妇写真"
+            }
+        ],
+        "cate_type": 2,
+        "cate_name": "亲子"
+    },
+    {
+        "img_url": "http://d2.lashouimg.com/wirelessimg/custom_img/android/1070.png",
+        "cate_id": "1070",
+        "sub_cate": [
+            {
+                "id": 0,
+                "name": "全部"
+            },
+            {
+                "id": "401",
+                "name": "周边游"
+            },
+            {
+                "id": "404",
+                "name": "门票"
+            },
+            {
+                "id": "431",
+                "name": "温泉"
+            },
+            {
+                "id": "402",
+                "name": "国内游"
+            }
+        ],
+        "cate_type": 2,
+        "cate_name": "度假"
+    }
+]

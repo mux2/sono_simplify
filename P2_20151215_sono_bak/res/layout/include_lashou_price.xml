@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_price_lashou"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_lashou_price"
+    android:gravity="center"
+    android:paddingLeft="2.0dip"
+    android:paddingRight="3.0dip" >
+
+    <TextView
+        android:id="@+id/tv_price_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:maxLines="2"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tv_price_type"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_price_lashou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/tv_price_lashou"
+        android:textStyle="bold" />
+
+</LinearLayout>

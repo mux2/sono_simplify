@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/symbol_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¥"
+        android:textColor="@color/lashou_price_color"
+        android:textSize="@dimen/tv_price_size" />
+
+    <TextView
+        android:id="@+id/tv_price_present"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="168"
+        android:textColor="@color/lashou_price_color"
+        android:textSize="@dimen/tv_price_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_price_original"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2.0dip"
+        android:ellipsize="end"
+        android:paddingLeft="4.0dip"
+        android:paddingRight="4.0dip"
+        android:singleLine="true"
+        android:text="50"
+        android:textColor="@color/my_gray_textColor" />
+
+</merge>

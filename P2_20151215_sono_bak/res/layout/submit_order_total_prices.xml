@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/total_prices_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/pay_label_text_color_light_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.0dip" android:text="@string/total_prices" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/orange" android:id="@id/total_prices" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="35" android:layout_alignParentRight="true" />
+        <RelativeLayout android:id="@id/lashou_prices_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_toLeftOf="@id/total_prices">
+            <TextView android:textSize="@dimen/size_21" android:textColor="@color/C_white" android:id="@id/pref_price_tv" android:background="@drawable/pref_price_shape" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

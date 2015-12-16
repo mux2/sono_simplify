@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+   
+  style="@style/title_bar_style" >
+	
+    <TextView 
+         android:layout_width="wrap_content"
+          android:layout_height="fill_parent"
+          android:layout_centerInParent="true"
+          android:gravity="center"
+          android:text="@string/nearby"
+          android:textSize="22sp"
+        />
+    
+    
+   <LinearLayout
+        android:id="@+id/right_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+     >
+
+        <ImageView
+            android:id="@+id/right_map"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/imageview_btn_selector"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:src="@drawable/icon_nav_map" />
+
+        <ImageView
+            android:id="@+id/right_search"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/imageview_btn_selector"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:src="@drawable/icon_nav_search" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <GridView
+        android:id="@+id/gv_special"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@color/transparent"
+        android:horizontalSpacing="0.0dip"
+        android:listSelector="@color/transparent"
+        android:numColumns="2"
+        android:verticalSpacing="0.0dip" />
+
+    <ImageView
+        android:id="@+id/v_line"
+        android:layout_width="0.8000001dip"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@color/transparent"
+        android:paddingBottom="4.0dip"
+        android:paddingTop="4.0dip"
+        android:src="#ffe8e8e8" />
+
+    <View
+        android:id="@+id/h_line"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/list_view_driver_height"
+        android:layout_gravity="center"
+        android:layout_marginLeft="6.0dip"
+        android:layout_marginRight="6.0dip"
+        android:background="#ffe8e8e8" />
+
+</FrameLayout>

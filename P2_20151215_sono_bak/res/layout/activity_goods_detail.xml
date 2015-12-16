@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_common_gray"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/goods_detail_title_bar"
+        layout="@layout/title_bar" />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+        android:layout_below="@+id/goods_detail_title_bar"
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pull_to_refresh_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        ptr:ptrAnimationStyle="rotate"
+        ptr:ptrDrawableStart="@drawable/refreshing_animtaion" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <include
+                    android:id="@+id/layout_big_image"
+                    layout="@layout/goods_big_image_layout" />
+
+                 
+                <include
+                    android:id="@+id/buy_layout"
+                    layout="@layout/buy_layout" />
+
+                <include android:id="@+id/goods_comment_layout"   layout="@layout/goods_user_comment" />
+                <include
+                    android:id="@+id/price_desc_layout"
+                    layout="@layout/layout_activity_desc"
+                    android:visibility="gone" />
+
+                <include
+                    android:id="@+id/goods_info"
+                    layout="@layout/goods_detail_goods_info" />
+
+                <include
+                    android:id="@+id/goods_comment_layout"
+                    layout="@layout/goods_user_comment"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_grouppurchase_finished"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="10.0dip"
+                    android:text="团购已结束"
+                    android:textSize="@dimen/size_28"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/tv_network_invalid"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/retrive_date_failed"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/ll_loading_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <include
+                        android:id="@+id/layout_shop_info"
+                        layout="@layout/goods_detail_shop_info"
+                        android:visibility="visible" />
+
+                    <include
+                        android:id="@+id/Layout_goods_details"
+                        layout="@layout/goods_details_layout"
+                        android:visibility="visible" />
+
+                    <include
+                        android:id="@+id/layout_goods_warm_prompt"
+                        layout="@layout/goods_warm_prompt_layout"
+                        android:visibility="visible" />
+
+                    <include
+                        android:id="@+id/layout_goods_comment"
+                        layout="@layout/layout_goods_comment"
+                        android:visibility="visible" />
+
+                    <include
+                        android:id="@+id/ll_fatrue_food"
+                        layout="@layout/goods_detail_fatrure_food"
+                        android:visibility="visible" />
+
+                    <include
+                        android:id="@+id/ll_together_buy"
+                        layout="@layout/goods_detail_together_buy"
+                        android:visibility="visible" />
+
+                    <include
+                        android:id="@+id/layout_other_goods"
+                        layout="@layout/goods_other_goods_layout"
+                        android:visibility="visible" />
+
+                    <include
+                        android:id="@+id/layout_looks_goods"
+                        layout="@layout/goods_looks_goods_layout"
+                        android:visibility="visible" />
+                </LinearLayout>
+            </LinearLayout>
+
+         
+        </RelativeLayout>
+    </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+         android:layout_below="@+id/goods_detail_title_bar">
+        
+        
+   <include
+       
+                android:id="@+id/top_buy_layout"
+                layout="@layout/buy_layout" 
+                android:visibility="gone"/>
+    </RelativeLayout>
+</RelativeLayout>

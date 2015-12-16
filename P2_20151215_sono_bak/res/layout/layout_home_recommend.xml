@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <include
+        android:id="@+id/divider_view"
+        layout="@layout/divider_horizontal" />
+
+    <TextView
+        android:id="@+id/super_recommend_tv"
+        style="@style/home_super_today_textStyle"
+        android:layout_below="@+id/divider_view"
+        android:padding="10.0dip"
+        android:text="@string/home_recommend_lable"
+        android:textColor="@color/textColor_16" />
+
+</RelativeLayout>

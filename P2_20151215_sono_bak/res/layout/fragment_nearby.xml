@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xinbo.fragment.NearbyFragment" >
+
+    <RelativeLayout style="@style/title_bar_style" >
+
+        <TextView
+            android:id="@+id/title_tv"
+            style="@style/title_bar_center_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="40.0dip"
+            android:layout_marginRight="40.0dip"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="周边" />
+
+        <LinearLayout
+            android:id="@+id/right_lay"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="visible" >
+
+            <ImageView
+                android:id="@+id/right_map"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/imageview_btn_selector"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:src="@drawable/icon_nav_map" />
+
+            <ImageView
+                android:id="@+id/right_search"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/imageview_btn_selector"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:src="@drawable/icon_nav_search" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_alignParentBottom="true"
+            android:background="#50666666" />
+    </RelativeLayout>
+
+</LinearLayout>

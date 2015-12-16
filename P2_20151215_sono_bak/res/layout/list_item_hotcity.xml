@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <View
+        android:id="@id/iv_hotcity_divider"
+        android:layout_width="1.0dip"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="4.0dip"
+        android:layout_marginTop="4.0dip"
+        android:background="@color/goods_value_color" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@drawable/bg_travel_griditem_selector" >
+
+        <TextView
+            android:id="@id/tv_hotcity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8.0dip"
+            android:gravity="center_vertical"
+            android:textColor="@color/descity_text_colors"
+            android:textSize="14.0sp" />
+
+        <TextView
+            android:id="@id/tv_hotcity_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/tv_hotcity"
+            android:layout_marginLeft="4.0dip"
+            android:layout_toRightOf="@id/tv_hotcity"
+            android:textColor="#ff777777"
+            android:textSize="10.0sp" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="@dimen/common_divider_height"
+    android:background="#ffffffff"
+    android:orientation="vertical"
+    android:paddingTop="10.0dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10.0dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:background="#ffffffff"
+            android:gravity="center"
+            android:paddingLeft="5.0dip"
+            android:text="@string/warm_pormpt"
+            android:textColor="@color/textColor_32"
+            android:textSize="@dimen/section_text_size" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="#ffe2e2e2" />
+
+    <WebView
+        android:id="@+id/wv_gn_warm_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10.0dip"
+        android:paddingRight="5.0dip" />
+
+</LinearLayout>

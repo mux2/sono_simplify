@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="black">#ff6c7783</item>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="black_1">#ff7e8b98</item>
+    <item type="drawable" name="orange_1">#fff05400</item>
+    <item type="drawable" name="black_90">#ff171a1f</item>
+    <item type="drawable" name="orange_light">#ffff611d</item>
+    <item type="drawable" name="mini_web_back_text_default">#ff333333</item>
+    <item type="drawable" name="mini_web_back_text_press">#ffcccccc</item>
+    <item type="drawable" name="mini_list_devider">#ffbababa</item>
+    <item type="drawable" name="mini_page_bg_color">#ffededed</item>
+    <item type="drawable" name="mini_win_background_draw">#00000000</item>
+</resources>

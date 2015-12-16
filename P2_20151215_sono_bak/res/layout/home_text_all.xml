@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/include_horizontal" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_view_item_bg_selector"
+        android:gravity="center_horizontal"
+        android:padding="18.0dip"
+        android:text="@string/look_all_groupbuy"
+        android:textColor="#ff3c3c3c"
+        android:textSize="@dimen/tv_product_size" />
+
+</LinearLayout>

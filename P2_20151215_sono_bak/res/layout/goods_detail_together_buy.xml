@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="@dimen/common_divider_height"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/icon_groupbuy"
+        android:drawablePadding="5.0dip"
+        android:padding="10.0dip"
+        android:text="@string/goods_detail_together_buy"
+        android:textSize="@dimen/size_22" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:background="#ffe2e2e2" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/iv_groupbuy_left_arraw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginTop="40.0dip"
+            android:background="@drawable/icon_left_arrow" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/gy_together_buy"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip" />
+
+        <ImageView
+            android:id="@+id/iv_groupbuy_right_arraw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="40.0dip"
+            android:background="@drawable/icon_right_arrow" />
+    </RelativeLayout>
+
+</LinearLayout>

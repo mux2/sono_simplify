@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="@dimen/common_divider_height"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="10.0dip" >
+
+        <TextView
+            android:id="@+id/tv_more_shop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="center|left|top"
+            android:paddingLeft="5.0dip"
+            android:text="本单详情"
+            android:textColor="@color/textColor_32"
+            android:textSize="@dimen/section_text_size" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginBottom="5.0dip"
+        android:layout_marginTop="10.0dip"
+        android:background="#ffe2e2e2" />
+
+    <WebView
+        android:id="@+id/wv_gn_details"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:layout_marginTop="5.0dip"
+        android:background="#ffe2e2e2" />
+
+    <TextView
+        android:id="@+id/tv_more_details"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_view_item_click"
+        android:gravity="center"
+        android:paddingBottom="10.0dip"
+        android:paddingTop="10.0dip"
+        android:text="查看图文详情"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/size_21" />
+
+</LinearLayout>

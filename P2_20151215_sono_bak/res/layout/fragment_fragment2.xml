@@ -1,0 +1,158 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+
+    <include
+        android:id="@+id/nearby_title_bar"
+        layout="@layout/nearby_title_bar" />
+
+    <View
+        android:id="@+id/view_divider_header"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/bg_category_final" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:background="@color/mini_text_white"
+        android:baselineAligned="false" >
+
+        <RelativeLayout
+            android:id="@+id/layout_category"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@color/mini_text_white" >
+
+            <ToggleButton
+                android:id="@+id/bt_filter_category"
+                style="@style/button_expand_common"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="全部分类" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_district"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@color/mini_text_white" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/iv_filter_divider" />
+
+            <ToggleButton
+                android:id="@+id/bt_filter_district"
+                style="@style/button_expand_common"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="全城" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_destination"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@color/mini_text_white"
+            android:visibility="visible" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/iv_filter_divider" />
+
+            <ToggleButton
+                android:id="@+id/bt_filter_travel"
+                style="@style/button_expand_common"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="智能排序"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_sort"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0" 
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/iv_filter_divider" />
+
+            <ToggleButton
+                android:id="@+id/bt_filter_sort"
+                style="@style/button_expand_common"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layout_filter"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="@color/mini_text_white"
+            android:visibility="visible" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/iv_filter_divider" />
+
+            <ToggleButton
+                android:id="@+id/bt_filter"
+                style="@style/button_expand_common"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/goods_filter" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_divider_header"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0dip"
+        android:background="@color/bg_category_final" />
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/ptr_lv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@null"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false"
+            android:listSelector="@android:color/transparent"
+            android:overScrollMode="never"
+            ptr:ptrAnimationStyle="rotate"
+            ptr:ptrDrawableStart="@drawable/refreshing_animtaion"
+            ptr:ptrShowIndicator="false" />
+    </FrameLayout>
+
+</LinearLayout>

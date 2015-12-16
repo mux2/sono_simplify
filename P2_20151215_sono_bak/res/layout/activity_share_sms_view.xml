@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_share_entry"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/activity_share_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/popup_transparent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_share_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15.0dip"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="15.0dip"
+            android:text="分享到"
+            android:textColor="#ff33b5e5"
+            android:textSize="18.0sp"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2.0px"
+            android:background="#ff33b5e5"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20.0dip"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@id/short_message"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:drawablePadding="5.0dip"
+                    android:drawableTop="@drawable/icon_share_sms"
+                    android:gravity="center_horizontal"
+                    android:text="短信"
+                    android:textSize="16.0sp" />
+
+                <TextView
+                    android:id="@+id/sina_weibo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:drawablePadding="5.0dip"
+                    android:drawableTop="@drawable/btn_share_sina"
+                    android:gravity="center_horizontal"
+                    android:text="微博"
+                    android:textSize="16.0sp" />
+
+                <TextView
+                    android:id="@id/weixin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:drawablePadding="5.0dip"
+                    android:drawableTop="@drawable/btn_share_weixin"
+                    android:gravity="center_horizontal"
+                    android:text="微信"
+                    android:textSize="16.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:layout_marginTop="20.0dip"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@id/qq_weibo"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:drawablePadding="5.0dip"
+                    android:drawableTop="@drawable/btn_share_tenxun"
+                    android:gravity="center_horizontal"
+                    android:text="腾讯微博"
+                    android:textSize="16.0sp" />
+
+                <TextView
+                    android:id="@id/weixin_friend"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:drawablePadding="5.0dip"
+                    android:drawableTop="@drawable/btn_share_pengyou"
+                    android:gravity="center_horizontal"
+                    android:text="微信朋友圈"
+                    android:textSize="16.0sp" />
+
+                <TextView
+                    android:id="@id/more"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.0"
+                    android:drawablePadding="5.0dip"
+                    android:drawableTop="@drawable/btn_share_more"
+                    android:gravity="center_horizontal"
+                    android:text="更多"
+                    android:textSize="16.0sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/cancel_share_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="50.0dip"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_marginTop="20.0dip"
+                android:background="@drawable/btn_share_cancel"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="@string/cancel"
+                    android:textSize="16.0sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@id/activity_share_empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/activity_share_content"
+        android:orientation="vertical" />
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:paddingBottom="10.0dip"
+    android:paddingTop="10.0dip" >
+
+    <LinearLayout
+        android:id="@+id/layout_score1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_score_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="视觉效果:"
+            android:textColor="@color/shop_service_label_color"
+            android:textSize="@dimen/size_20" />
+
+        <TextView
+            android:id="@+id/tv_score_lable1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:gravity="center_vertical"
+            android:text="1.0"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/size_20" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_score2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_score_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="环境:"
+            android:textColor="@color/shop_service_label_color"
+            android:textSize="@dimen/size_20" />
+
+        <TextView
+            android:id="@+id/tv_score_lable2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:gravity="center_vertical"
+            android:text="1.0"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/size_20" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_score3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10.0dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_score_name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="服务："
+            android:textColor="@color/shop_service_label_color"
+            android:textSize="@dimen/size_20" />
+
+        <TextView
+            android:id="@+id/tv_score_lable3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:gravity="center_vertical"
+            android:text="1.0"
+            android:textColor="@color/orange"
+            android:textSize="@dimen/size_20" />
+    </LinearLayout>
+
+</RelativeLayout>

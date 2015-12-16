@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/pay_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:indeterminateDrawable="@drawable/waiting" android:layout_centerVertical="true" style="@android:style/Widget.ProgressBar.Small" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/submit_order_pay_ways_loading" android:layout_toRightOf="@id/pay_progress_bar" android:layout_centerVertical="true" />
+</RelativeLayout>

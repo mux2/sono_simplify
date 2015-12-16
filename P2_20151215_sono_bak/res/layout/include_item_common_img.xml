@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="@dimen/list_image_width"
+        android:layout_height="@dimen/list_image_heigh"
+        android:layerType="software"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_list_pic" />
+
+    <ImageView
+        android:id="@+id/iv_icon2"
+        android:layout_width="@dimen/list_image_width"
+        android:layout_height="@dimen/list_image_heigh"
+        android:layerType="software"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pic_b" />
+
+    <ImageView
+        android:id="@+id/iv_appointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/appointment_img"
+        android:visibility="gone" />
+
+</FrameLayout>

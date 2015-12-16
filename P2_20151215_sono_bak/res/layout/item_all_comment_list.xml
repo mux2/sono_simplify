@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@id/layout_seekbar"
+        layout="@layout/seekbar_style"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@id/layout_comment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5.0dip"
+        android:layout_marginTop="5.0dip"
+        android:background="#ffffffff"
+        android:orientation="vertical"
+        android:padding="4.0dip"
+        android:paddingBottom="4.0dip"
+        android:paddingTop="4.0dip" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@id/tv_comment_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="2.0dip"
+                android:text="风雷子"
+                android:textColor="@color/value_color"
+                android:textSize="@dimen/size_19" />
+
+            <ImageView
+                android:id="@id/iv_user_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/tv_comment_name"
+                android:background="@drawable/level_0"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@id/tv_comment_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginRight="20.0dip"
+                android:layout_toRightOf="@id/iv_user_level"
+                android:text="2015-12-12"
+                android:textColor="@color/value_color"
+                android:textSize="@dimen/size_19" />
+
+            <RatingBar
+                android:id="@id/rb_item_percent"
+                style="@style/commentRatingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20.0dip"
+                android:layout_toLeftOf="@id/tv_comment_date"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:numStars="5"
+                android:rating="4.7"
+                android:stepSize="1.0"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@id/tv_comment_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="2.0dip"
+            android:gravity="left"
+            android:text="灰常好吃的香辣蟹，超赞哦灰常好吃的香辣蟹，超赞哦灰常好吃的香辣蟹，超赞哦灰常好吃的香辣蟹，超赞哦"
+            android:textColor="@color/gray2" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:layout_marginLeft="5.0dip"
+        android:layout_marginRight="5.0dip"
+        android:background="@drawable/ic_detail_divider" />
+
+</LinearLayout>

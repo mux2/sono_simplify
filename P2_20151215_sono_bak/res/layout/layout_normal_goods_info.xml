@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="10.0dip"
+    android:visibility="gone" >
+
+    <TextView
+        android:id="@+id/iv_seven_refund"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15.0dip"
+        android:layout_marginTop="15.0dip"
+        android:layout_weight="1.0"
+        android:drawableLeft="@drawable/ic_support_tui"
+        android:drawablePadding="5.0dip"
+        android:textColor="#ff686767"
+        android:textSize="@dimen/size_20"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/ctv_time_refund"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15.0dip"
+        android:layout_marginTop="15.0dip"
+        android:layout_weight="1.0"
+        android:drawableLeft="@drawable/ic_support_guoqi"
+        android:drawablePadding="5.0dip"
+        android:textColor="#ff686767"
+        android:textSize="@dimen/size_20"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_bought"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15.0dip"
+        android:layout_marginTop="15.0dip"
+        android:layout_weight="1.0"
+        android:drawableLeft="@drawable/count"
+        android:drawablePadding="5.0dip"
+        android:textColor="#ff686767"
+        android:textSize="@dimen/size_20"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_group_title"
+        android:layout_width="fill_parent"
+        android:layout_height="30.0dip"
+        android:background="#ffd7d7d7"
+        android:gravity="center_vertical"
+        android:paddingLeft="8.0dip"
+        android:text="A"
+        android:textColor="@color/text_content_black"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="40.0dip"
+        android:minHeight="40.0dip" >
+
+        <TextView
+            android:id="@+id/tv_descity_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingLeft="8.0dip"
+            android:text="厦门"
+            android:textColor="@color/text_content_black"
+            android:textSize="16.0sp" />
+
+        <TextView
+            android:id="@+id/tv_descity_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tv_descity_name"
+            android:layout_marginLeft="20.0dip"
+            android:layout_toRightOf="@+id/tv_descity_name"
+            android:textColor="#ff777777"
+            android:textSize="10.0sp" />
+    </RelativeLayout>
+
+</LinearLayout>

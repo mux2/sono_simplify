@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_bar"
+        style="@style/title_bar_style"
+        android:background="@color/color_white" >
+
+        <ImageView
+            android:id="@+id/back_img"
+            style="@style/left_back_img_style"
+            android:onClick="btnBack" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/title_bar_center_text_style"
+            android:text="@string/switch_city" />
+
+        <ImageView
+            android:id="@+id/iv_right_img"
+            style="@style/right_btn_style"
+            android:src="@drawable/selector_refresh" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_alignParentBottom="true"
+            android:background="@color/city_divider_color" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <include layout="@layout/search_view_layout"
+            android:id="@+id/sv_swtich_city"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/list_view_item_click"
+        android:padding="14.0dip" >
+
+        <include layout="@layout/include_item_common_img" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="8.0dip"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/layout_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tv_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="@color/my_gray_textColor"
+                    android:textSize="10.0sp" />
+
+                <TextView
+                    android:id="@+id/tv_short_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/tv_distance"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="正院大宅门"
+                    android:textColor="@color/textColor_16"
+                    android:textSize="16.0sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="[三里屯]正院大宅门(SOHO店)四人餐一份"
+                android:textColor="@color/my_gray_textColor"
+                android:textSize="@dimen/tv_shorttitle_size" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:gravity="bottom" >
+
+                <include layout="@layout/include_item_common_pricelayout" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/list_view_driver_height"
+            android:layout_marginLeft="14.0dip"
+            android:layout_marginRight="14.0dip"
+            android:background="@color/pop_type_list2_bg" />
+
+        <View
+            android:id="@+id/view_divider_common"
+            android:layout_width="fill_parent"
+            android:layout_height="16.0dip"
+            android:background="@color/listview_driver_color"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

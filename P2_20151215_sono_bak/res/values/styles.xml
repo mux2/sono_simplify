@@ -1,0 +1,174 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="ptrHeader">
+        <item name="android:textStyle">normal</item>
+    </style>
+     
+ 
+     <style name="title_bar_style">
+        <item name="android:background">@color/title_bar_color</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50.0dip</item>
+    </style>
+    
+        <style name="left_back_img_style">
+        <item name="android:background">@drawable/imageview_btn_selector</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingRight">15.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:src">@drawable/icon_back</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    
+         <style name="title_bar_center_text_style">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/title_bar_center_textColor</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    
+         
+         <style name="bigCommentRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxHeight">14.0dip</item>
+        <item name="android:progressDrawable">@drawable/big_ratingbar_full</item>
+        <item name="android:minHeight">14.0dip</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+
+    <style name="commentRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxHeight">13.0dip</item>
+        <item name="android:progressDrawable">@drawable/small_ratingbar_full</item>
+        <item name="android:minHeight">13.0dip</item>
+        <item name="android:stepSize">0.1</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+
+    <style name="home_time_limit_seckill_textview">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/round_bg_orange</item>
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingRight">3.0dip</item>
+        <item name="android:paddingBottom">0.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textScaleX">1.2</item>
+    </style>
+
+    <style name="load_failed_info_textStyle">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#fffd7f46</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">20.0dip</item>
+    </style>
+
+    <style name="load_failed_msg_textStyle">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ff3b3b3b</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20.0dip</item>
+        <item name="android:layout_marginBottom">20.0dip</item>
+    </style>
+
+    <style name="home_super_today_textStyle">
+        <item name="android:textSize">@dimen/section_text_size</item>
+        <item name="android:textColor">@color/home_super_today_textColor_default</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/list_view_item_bg_selector</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="base_listview_style" parent="@android:style/Widget.ListView">
+        <item name="android:scrollbarThumbVertical">@drawable/base_list_scrollbar_handle</item>
+        <item name="android:fadingEdgeLength">0.0dip</item>
+        <item name="android:alwaysDrawnWithCache">true</item>
+        <item name="android:listSelector">@drawable/base_list_selector</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:cacheColorHint">@null</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0.0dip</item>
+    </style>
+
+    <style name="base_large_progressbar_style">
+        <item name="android:maxWidth">38.0dip</item>
+        <item name="android:maxHeight">38.0dip</item>
+        <item name="android:indeterminateDrawable">@anim/base_loading_large_anim</item>
+        <item name="android:minWidth">38.0dip</item>
+        <item name="android:minHeight">38.0dip</item>
+    </style>
+
+    <style name="right_btn_style">
+        <item name="android:background">@drawable/imageview_btn_selector</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingRight">15.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+ 
+ 
+
+    <style name="home_title_bar_style">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/home_title_bar_color</item>
+        <item name="android:paddingLeft">0.0dip</item>
+        <item name="android:paddingRight">0.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50.0dip</item>
+    </style>
+    
+        <style name="button_expand_common">
+        <item name="android:textSize">@dimen/comment_textSize3</item>
+        <item name="android:textColor">@color/roggle_text_colors</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textOn">@null</item>
+        <item name="android:textOff">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawableRight">@drawable/bt_expand_indicator_selector</item>
+        <item name="android:drawablePadding">4.0dip</item>
+    </style>
+     <style name="title_text_style">
+        <item name="android:textSize">20.0dip</item>
+        <item name="android:textColor">@color/title_bar_center_textColor</item>
+    </style>
+    
+      <style name="text_mid_gray">
+        <item name="android:textSize">@dimen/item_mid_size</item>
+        <item name="android:textColor">@color/list_item_text_colors1</item>
+    </style>
+     
+</resources>

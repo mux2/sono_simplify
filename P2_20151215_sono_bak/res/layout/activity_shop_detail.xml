@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/fl_parent_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@id/title_bar"
+        style="@style/title_bar_style"
+        android:background="@color/color_white" >
+
+        <ImageView
+            android:id="@+id/back_img"
+            style="@style/left_back_img_style" />
+
+        <TextView
+            android:id="@id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:maxWidth="200.0dip"
+            android:text="商家详情"
+            android:textSize="20.0sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_alignParentBottom="true"
+            android:background="@color/divider_color" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/title_bar" >
+
+        <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/sv_shop_detail"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fadingEdge="none"
+            android:fillViewport="false"
+            ptr:ptrAnimationStyle="rotate"
+            ptr:ptrDrawableStart="@drawable/refreshing_animtaion" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <include
+                    android:id="@id/layout_shop_big_image"
+                    layout="@layout/include_cinema_details_big_image_info_layout" />
+
+                <include layout="@layout/layout_shop_address" />
+
+                <include
+                    android:id="@id/ll_shop_goods"
+                    layout="@layout/layout_shop_goods"
+                    android:visibility="gone" />
+
+                <include
+                    android:id="@id/ll_shop_comment"
+                    layout="@layout/layout_goods_comment"
+                    android:visibility="gone" />
+
+                <include
+                    android:id="@id/ll_branch_around_groupBuy"
+                    layout="@layout/layout_shop_nearbuy_goods" />
+            </LinearLayout>
+        </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+
+        <View
+            android:id="@id/pb_loading"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@id/self_test_coupons_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="50.0dip"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg_yanjuan"
+        android:padding="5.0dip"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@id/brantch_detail_self_test_coupons_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/login_btn_selector"
+            android:padding="4.0dip"
+            android:text="自助验券"
+            android:textColor="#ffffffff" />
+
+        <TextView
+            android:id="@id/self_test_coupons_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/brantch_detail_self_test_coupons_btn"
+            android:text="您在本店有3张未消费的拉手券哦，点此可以直接验券"
+            android:textColor="#ffffffff" />
+    </RelativeLayout>
+
+</RelativeLayout>

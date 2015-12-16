@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/seckillTitleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:paddingBottom="10.0dip"
+            android:paddingTop="10.0dip"
+            android:src="@drawable/ic_secking" />
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="right"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/seckillTimeTypeTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8.0dip"
+                android:paddingBottom="7.0dip"
+                android:paddingTop="7.0dip"
+                android:text="距离开始"
+                android:textColor="@color/textColor_77"
+                android:textSize="14.0sp" />
+
+            <TextView
+                android:id="@+id/seckillHourTV"
+                style="@style/home_time_limit_seckill_textview"
+                android:text="01" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="："
+                android:textColor="@color/textColor_77"
+                android:textSize="15.0sp" />
+
+            <TextView
+                android:id="@+id/seckillMinuteTV"
+                style="@style/home_time_limit_seckill_textview"
+                android:text="02" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="："
+                android:textColor="@color/color_77"
+                android:textSize="15.0sp" />
+
+            <TextView
+                android:id="@+id/seckillSecondTV"
+                style="@style/home_time_limit_seckill_textview"
+                android:text="03" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/more_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:drawablePadding="4.0dip"
+            android:drawableRight="@drawable/arrow_right_my_gray"
+            android:gravity="center_vertical"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:textColor="@color/color_77"
+            android:textSize="15.0sp" />
+    </LinearLayout>
+
+    <include layout="@layout/include_horizontal" />
+
+    <LinearLayout
+        android:id="@+id/seckillItemsLL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+
+</LinearLayout>

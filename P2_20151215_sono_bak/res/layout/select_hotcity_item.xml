@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@id/group_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/city_title"
+        android:gravity="center|left"
+        android:paddingBottom="10.0dip"
+        android:paddingLeft="@dimen/biz_plugin_weather_selectcity_group_item_padding"
+        android:paddingRight="@dimen/biz_plugin_weather_selectcity_group_item_padding"
+        android:paddingTop="10.0dip"
+        android:text="热门城市"
+        android:textColor="@color/biz_plugin_weather_text1"
+        android:textStyle="bold" />
+
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="4" >
+    </GridView>
+
+</LinearLayout>
